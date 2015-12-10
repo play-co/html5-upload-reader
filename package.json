@@ -1,0 +1,8 @@
+{
+  "name": "http-upload-reader",
+  "author": "Martin Hunt",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "bluebird": "*"
+  }
+}
