@@ -1,8 +1,18 @@
 {
-  "name": "http-upload-reader",
+  "name": "html5-upload-reader",
   "author": "Martin Hunt",
   "version": "0.0.1",
   "peerDependencies": {
     "bluebird": "*"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "stage": 0
+        }
+      ]
+    ]
   }
 }
