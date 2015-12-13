@@ -43,7 +43,7 @@ function entryToFile(entry) {
   return new Promise((resolve, _reject) => {
     entry.file(data => {
       let {fullPath, isDirectory, isFile} = entry;
-      resolve({fullPath, isDirectory, isFile, data});
+      resolve({path: fullPath.replace(/^\/+/, ''), isDirectory, isFile, data});
     });
   });
 }
