@@ -14,5 +14,8 @@
         }
       ]
     ]
+  },
+  "devDependencies": {
+    "babelify": "^6.4.0"
   }
 }
